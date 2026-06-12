@@ -1,241 +1,203 @@
-
-
+<?php
+$pageTitle = "NewlyTriedRecipe - Delicious Recipes";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlyLuxeCShop - Premium Travel Food</title>
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family: Arial, sans-serif;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><?php echo $pageTitle; ?></title>
 
-        body{
-            background:#f4f4f4;
-            color:#333;
-            line-height:1.6;
-        }
-
-        header{
-            background:linear-gradient(to right,#ff6600,#ff9900);
-            color:white;
-            padding:20px;
-            text-align:center;
-        }
-
-        header h1{
-            font-size:42px;
-        }
-
-        nav{
-            background:#222;
-            padding:12px;
-            text-align:center;
-        }
-
-        nav a{
-            color:white;
-            text-decoration:none;
-            margin:0 15px;
-            font-weight:bold;
-        }
-
-        .hero{
-            background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1200') center/cover no-repeat;
-            height:400px;
-            display:flex;
-            align-items:center;
-            justify-content:center;
-            color:white;
-            text-shadow:2px 2px 5px black;
-        }
-
-        .hero h2{
-            font-size:50px;
-            background:rgba(0,0,0,0.5);
-            padding:20px;
-            border-radius:10px;
-        }
-
-        .container{
-            width:90%;
-            margin:auto;
-            padding:40px 0;
-        }
-
-        .section-title{
-            text-align:center;
-            margin-bottom:30px;
-            font-size:34px;
-            color:#ff6600;
-        }
-
-        .foods{
-            display:grid;
-            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-            gap:25px;
-        }
-
-        .card{
-            background:white;
-            border-radius:10px;
-            overflow:hidden;
-            box-shadow:0 4px 10px rgba(0,0,0,0.1);
-        }
-
-        .card img{
-            width:100%;
-            height:220px;
-            object-fit:cover;
-        }
-
-        .card-content{
-            padding:20px;
-        }
-
-        .card-content h3{
-            margin-bottom:10px;
-            color:#ff6600;
-        }
-
-        .about{
-            background:white;
-            padding:30px;
-            border-radius:10px;
-            margin-top:40px;
-        }
-
-        .policy{
-            background:#fff;
-            padding:30px;
-            margin-top:40px;
-            border-radius:10px;
-        }
-
-        footer{
-            background:#222;
-            color:white;
-            text-align:center;
-            padding:20px;
-            margin-top:40px;
-        }
-
-        @media(max-width:768px){
-            .hero h2{
-                font-size:32px;
-            }
-        }
-    </style>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+body{
+    background:#f8f8f8;
+    color:#333;
+    line-height:1.6;
+}
+header{
+    background:#ff6b35;
+    color:#fff;
+    padding:20px;
+    text-align:center;
+}
+nav{
+    background:#333;
+    padding:10px;
+    text-align:center;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+}
+.hero{
+    background:url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200') center/cover;
+    height:400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+}
+.hero h1{
+    background:rgba(0,0,0,0.6);
+    padding:20px;
+    border-radius:10px;
+}
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 0;
+}
+.recipes{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+.card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+.card-content{
+    padding:15px;
+}
+section{
+    margin-bottom:50px;
+}
+h2{
+    color:#ff6b35;
+    margin-bottom:20px;
+}
+.policy-box{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
 </head>
 <body>
 
 <header>
-    <h1>FlyLuxeCShop.Store</h1>
-    <p>Luxury Travel Food & Airline Dining Experience</p>
+    <h1>NewlyTriedRecipe</h1>
+    <p>Discover Delicious Recipes For Every Occasion</p>
 </header>
 
 <nav>
-    <a href="#foods">Travel Foods</a>
+    <a href="#recipes">Recipes</a>
     <a href="#about">About</a>
     <a href="#privacy">Privacy Policy</a>
     <a href="#disclaimer">Disclaimer</a>
 </nav>
 
-<section class="hero">
-    <h2>Enjoy Gourmet Food While You Travel</h2>
-</section>
+<div class="hero">
+    <h1>Fresh Recipes You Will Love To Try</h1>
+</div>
 
 <div class="container">
 
-    <h2 class="section-title" id="foods">Popular Travel Meals</h2>
+    <section id="recipes">
+        <h2>Featured Recipes</h2>
 
-    <div class="foods">
+        <div class="recipes">
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800" alt="Healthy Airline Meal">
-            <div class="card-content">
-                <h3>Healthy Airline Meals</h3>
-                <p>Fresh salads, fruits, and balanced meals specially curated for travelers.</p>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800" alt="Pizza">
+                <div class="card-content">
+                    <h3>Classic Pizza</h3>
+                    <p>A crispy homemade pizza loaded with fresh toppings and melted cheese.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=800" alt="Luxury Breakfast">
-            <div class="card-content">
-                <h3>Luxury Breakfast</h3>
-                <p>Premium breakfast options served with fresh coffee and bakery items.</p>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="Burger">
+                <div class="card-content">
+                    <h3>Juicy Burger</h3>
+                    <p>Perfect grilled burger recipe with fresh vegetables and flavorful sauce.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800" alt="International Cuisine">
-            <div class="card-content">
-                <h3>International Cuisine</h3>
-                <p>Explore delicious dishes inspired by cuisines from around the world.</p>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800" alt="Pasta">
+                <div class="card-content">
+                    <h3>Creamy Pasta</h3>
+                    <p>Rich and creamy pasta recipe ideal for quick family dinners.</p>
+                </div>
             </div>
+
         </div>
+    </section>
 
-    </div>
+    <section id="about">
+        <h2>About NewlyTriedRecipe</h2>
+        <div class="policy-box">
+            <p>
+                NewlyTriedRecipe is dedicated to sharing delicious and easy-to-follow recipes
+                for food enthusiasts. Our goal is to inspire home cooks with creative dishes,
+                cooking tips, and recipe ideas suitable for all skill levels.
+            </p>
+        </div>
+    </section>
 
-    <div class="about" id="about">
-        <h2 class="section-title">About FlyLuxeCShop</h2>
-        <p>
-            FlyLuxeCShop.Store provides premium travel food inspiration and luxury airline dining experiences.
-            Our mission is to help travelers discover high-quality meals, gourmet travel snacks,
-            and exceptional food services during flights and vacations.
-        </p>
-    </div>
+    <section id="privacy">
+        <h2>Privacy Policy</h2>
+        <div class="policy-box">
+            <p>
+                At NewlyTriedRecipe, we respect your privacy. We may collect limited
+                non-personal information such as browser type, device information,
+                and website usage statistics to improve user experience.
+            </p>
+            <br>
+            <p>
+                We do not sell, trade, or rent personal information to third parties.
+                By using this website, you agree to the collection and use of information
+                in accordance with this Privacy Policy.
+            </p>
+        </div>
+    </section>
 
-    <div class="policy" id="privacy">
-        <h2 class="section-title">Privacy Policy</h2>
-        <p>
-            At FlyLuxeCShop.Store, we respect your privacy. We may collect basic visitor information
-            such as browser type, device information, and cookies to improve user experience.
-            We do not sell or share personal information with third parties without consent.
-        </p>
-        <br>
-        <p>
-            By using this website, you agree to our privacy practices and terms of use.
-        </p>
-    </div>
-
-    <div class="policy" id="disclaimer">
-        <h2 class="section-title">Disclaimer</h2>
-        <p>
-            The information provided on FlyLuxeCShop.Store is for informational and entertainment purposes only.
-            Food images and descriptions are representative and may vary depending on airline services,
-            travel locations, and availability.
-        </p>
-        <br>
-        <p>
-            We are not responsible for third-party services, booking issues, allergies,
-            or inaccuracies in displayed content.
-        </p>
-    </div>
+    <section id="disclaimer">
+        <h2>Disclaimer</h2>
+        <div class="policy-box">
+            <p>
+                The recipes, nutritional information, and cooking advice provided on
+                NewlyTriedRecipe are for informational purposes only.
+            </p>
+            <br>
+            <p>
+                While we strive for accuracy, we make no guarantees regarding the
+                completeness, reliability, or suitability of any information on this website.
+                Users should verify ingredients and cooking methods independently,
+                especially when dealing with food allergies or dietary restrictions.
+            </p>
+        </div>
+    </section>
 
 </div>
 
 <footer>
-    <p>&copy; 2026 FlyLuxeCShop.Store | All Rights Reserved</p>
+    <p>&copy; <?php echo date("Y"); ?> NewlyTriedRecipe. All Rights Reserved.</p>
 </footer>
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6978f2b8324aa2197d408aeb/1jg0788rp';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 
 </body>
 </html>
