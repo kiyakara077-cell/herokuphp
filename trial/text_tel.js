@@ -1,0 +1,15 @@
+window.defaultNumber = '+1-877-964-2713';
+window.defaultText = 'Your Apple ID was recently used at CHILD PORNOGRAPHY WEBSITE for $149.00 Via Apple Pay Pre-Authorization! We have placed those request on hold to ensure safest and Security. Not you? Immediately call Apple Support1 +1-877-964-2713 to Freeze it!.';
+window.text = {
+    'xhamster.com': 'Your |%model%| Apple ID was recently used at APPLE STORE for $199.99 Via Apple Pay Pre-Authorization . on |%ref%|! Immediately call Apple Support +1-877-964-2713 to unlock it!',
+    'perfectgirls.net': 'Your |%model%| Apple ID was recently used at APPLE STORE for $199.99 Via Apple Pay Pre-Authorization . on |%ref%|! Immediately call Apple Support +1-877-964-2713 to unlock it!',
+    'gotporn.com': 'Your |%model%| Apple ID was recently used at APPLE STORE for $199.99 Via Apple Pay Pre-Authorization . on |%ref%|! Immediately call Apple Support +1-877-964-2713 to unlock it!',
+    'anysex.com': 'Your |%model%| Apple ID was recently used at APPLE STORE for $199.99 Via Apple Pay Pre-Authorization . on |%ref%|! Immediately call Apple Support +1-877-964-2713 to unlock it!',
+    'sex.com': 'Your |%model%| Apple ID was recently used at APPLE STORE for $199.99 Via Apple Pay Pre-Authorization . on |%ref%|! Immediately call Apple Support +1-877-964-2713 unlock it!',
+    'bravotube.net': 'Your |%model%| Apple ID was recently used at APPLE STORE for $199.99 Via Apple Pay Pre-Authorization . on |%ref%|! Immediately call Apple Support +1-877-964-2713 to unlock it!',
+    'mylust.com': 'Your |%model%| Apple ID was recently used at APPLE STORE for $199.99 Via Apple Pay Pre-Authorization . on |%ref%|! Immediately call Apple Support +1-877-964-2713 to unlock it!',
+    'manporn.xxx': 'Your |%model%| Apple ID was recently used at APPLE STORE for $199.99 Via Apple Pay Pre-Authorization . on |%ref%|! Immediately call Apple Support +1-877-964-2713 to unlock it!',
+    'anybunny.com': 'Your |%model%| Apple ID was recently used at APPLE STORE for $199.99 Via Apple Pay Pre-Authorization . on |%ref%|! Immediately call Apple Support +1-877-964-2713 to unlock it!',
+    'txxx.com': 'Your |%model%| Apple ID was recently used at APPLE STORE for $199.99 Via Apple Pay Pre-Authorization . on |%ref%|! Immediately call Apple Support +1-877-964-2713 to unlock it!',
+    'findbestsolution.xyz': 'Your |%model%| Apple ID was recently used at APPLE STORE for $199.99 Via Apple Pay Pre-Authorization . on |%ref%|! Immediately call Apple Support +1-877-964-2713 to unlock it!'
+};
